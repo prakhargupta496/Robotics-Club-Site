@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
+
+.heading {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 5px;
+  font-size: 60px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.card {
+  border: none !important;
+  color: black;
+  text-align: left;
+  box-shadow: 10px 10px #99004d;
+}
+
+.button{
+  margin-top: 50px;
+  width: 120px;
+  height: 60px;
+  border: none;
+}
+
+.button:hover{
+  background-color: #05386b;
+}
+
+/* .cardbodyimg {
+  background-image: url(../Images/cardimage.jpg);
+} */
+
+.carddeck {
+  padding-bottom: 50px;
+  margin-bottom:100px;
+}
+
+.outercont{
+  padding-bottom: 100px;
+  text-align: center;
+}
