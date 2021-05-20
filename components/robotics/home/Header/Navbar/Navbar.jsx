@@ -16,19 +16,19 @@ function Navbar_robotics() {
           <Nav.Link href="#home" className={Styles.navlink}>
             Home
           </Nav.Link>
-          <Nav.Link href="#link" className={Styles.navlink}>
+          <Nav.Link href="#about" className={Styles.navlink}>
             About
           </Nav.Link>
-          <Nav.Link href="#link" className={Styles.navlink}>
+          <Nav.Link href="#events" className={Styles.navlink}>
             Events
           </Nav.Link>
-          <Nav.Link href="#link" className={Styles.navlink}>
+          <Nav.Link href="#coordinators" className={Styles.navlink}>
             Coordinators
           </Nav.Link>
           <Nav.Link href="#link" className={Styles.navlink}>
             Gallery
           </Nav.Link>
-          <Nav.Link href="#link" className={Styles.navlink}>
+          <Nav.Link href="#contact" className={Styles.navlink}>
             Contact us
           </Nav.Link>
         </Nav>

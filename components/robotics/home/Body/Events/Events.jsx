@@ -30,13 +30,13 @@ function Events() {
     }
   }
   return (
-    <section>
+    <section id="events">
       <Container className={Styles.outercont}>
         <h1 className={Styles.heading}>Events</h1>
         <CardDeck>
           {items}
         </CardDeck>
-        <Button className={Styles.button}>Show More</Button>
+        <Button className={Styles.button} href="/events">Show More</Button>
       </Container>
     </section>
   );

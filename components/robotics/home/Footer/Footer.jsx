@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "./footer.module.css";
 import { Container, Row, Col, Button} from "react-bootstrap";
 import {FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
+import Link from "next/link";
 //import { Link,  BrowserRouter as Router  } from "react-router-dom";
 
 function Footer(props){
@@ -13,8 +14,11 @@ function Footer(props){
                 </Col>
                 <Col className={Styles.col}>
                     
+                        <Link href="/events">
+                            Events
+                        </Link>
+                         
                         
-                        <h3 className={Styles.item}>Events</h3>
                         <h3 className={Styles.item}>Gallery</h3>
                         <h3 className={Styles.item}>Contact Us</h3>
                         <h3 className={Styles.item}>Past Coordinators</h3>

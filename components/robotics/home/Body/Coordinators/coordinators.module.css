@@ -16,14 +16,40 @@
   padding-bottom: 200px;
 }
 
-.coordinators{
+.col{
+  text-align: center;
+  color: black;
+}
+
+.imgWrapper{
+  position: relative;
+  overflow: hidden;
   border-radius: 50%;
   height:250px;
   width:250px;
 }
 
-.col{
-  text-align: center;
-  color: black;
+.coordinatorImg{
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.imgHover{
+  background-color: aquamarine;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.imgHover:hover{
+  visibility: visible;
 }
 

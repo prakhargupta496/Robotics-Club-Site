@@ -12,7 +12,7 @@ import { FaEnvelope, FaTelegram } from "react-icons/fa";
 
 function Contact() {
   return (
-    <section>
+    <section id="contact">
       <Container className={Styles.outercont}>
         <h1 className={Styles.mainhead}>Contact Us</h1>
         <Row className={Styles.row}>
