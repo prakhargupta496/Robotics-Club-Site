@@ -18,7 +18,6 @@ function Footer(props){
                             Events
                         </Link>
                          
-                        
                         <h3 className={Styles.item}>Gallery</h3>
                         <h3 className={Styles.item}>Contact Us</h3>
                         <h3 className={Styles.item}>Past Coordinators</h3>
